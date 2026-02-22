@@ -102,7 +102,6 @@ JWT_SECRET=your_secret_key
 | PORT       | Port where the backend server runs |
 | MONGO_URI  | MongoDB database connection string |
 | JWT_SECRET | Secret key used for authentication |
-| CLIENT_URL | Frontend application URL           |
 
 ---
 
