@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+h1 {
+    @apply text-3xl font-bold;
+}
+
+h2 {
+    @apply text-2xl font-semibold;
+}
+
+h3 {
+    @apply text-xl font-medium;
+}
+
+h4 {
+    @apply text-lg font-normal;
+}
+
+h5 {
+    @apply text-base font-light;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #F0FAFF !important;
+}
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.wmde-markdown {
+  background-color: white !important;
+  color: #1f2937 !important; 
+}
+
+.wmde-markdown pre,
+.wmde-markdown code {
+  background-color: #f4f4f4 !important; 
+  color: #111 !important;
+}
+
+.prose hr {
+  border: none !important;
+  height: 1px !important;
+  background-color: #e5e7eb !important; 
+  margin: 1.5rem 0 !important;
+}
